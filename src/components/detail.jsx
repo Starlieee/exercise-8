@@ -1,6 +1,6 @@
 import React from 'react';
 
-const Detail = ({ food, onClose }) => {
+const detail = ({ food, onClose }) => {
   if (!food) return null;
 
   return (
@@ -22,4 +22,4 @@ const Detail = ({ food, onClose }) => {
   );
 };
 
-export default Detail;
+export default detail;

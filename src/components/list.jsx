@@ -1,7 +1,7 @@
 import React from 'react';
 import Card from './card';
 
-const List = ({ foods, onDetailClick }) => {
+const list = ({ foods, onDetailClick }) => {
   return (
     <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
       {foods.map(food => (
@@ -11,4 +11,4 @@ const List = ({ foods, onDetailClick }) => {
   );
 };
 
-export default List;
+export default list;

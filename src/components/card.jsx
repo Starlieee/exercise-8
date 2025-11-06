@@ -1,6 +1,6 @@
 import React from 'react';
 
-const Card = ({ food, onDetailClick }) => {
+const card = ({ food, onDetailClick }) => {
   return (
     <div className="bg-white rounded-lg shadow-md p-4 hover:shadow-lg transition-shadow">
       <div className="text-6xl text-center mb-3">{food.image}</div>
@@ -17,4 +17,4 @@ const Card = ({ food, onDetailClick }) => {
   );
 };
 
-export default Card;
+export default card;
