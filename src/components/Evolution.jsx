@@ -1,6 +1,7 @@
 import React from 'react';
+import Evolution from "./Evolution";
 
-const Evolution = ({ stages }) => {
+const EvolutionComponent = ({ stages }) => {
   return (
     <div className="bg-green-50 p-4 rounded-lg border border-green-200">
       <h4 className="font-bold text-green-800 mb-2">Evolution</h4>
@@ -16,4 +17,4 @@ const Evolution = ({ stages }) => {
   );
 };
 
-export default Evolution;
+export default EvolutionComponent;
